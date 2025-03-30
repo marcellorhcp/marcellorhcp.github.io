@@ -9,48 +9,51 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Marcelo Azevedo</title>
+    <!-- Link para a folha de estilos -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts (se você estiver utilizando fontes externas) -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" /> <!-- Favicon -->
   </head>
 
   <body>
-    <!-- Seção principal de conteúdo -->
     <header class="content">
-      <h1 class="name">Marcelo Azevedo</h1>
+      <h1 class="name center">Marcelo Azevedo</h1>
       <div class="center">
-        <span>IT Analyst</span>
+        <span>IT Infrastructure Analyst | Operations Engineer | Tech Support </span>
       </div>
     </header>
 
     <main>
       <section class="cta m-t-60 center">
         <a
-          class="button"
-          href="https://raw.githubusercontent.com/marcellorhcp/resume/main/MarceloAzevedo-PT-BR-Resume"
+          class="button button-default"
+          href="https://raw.githubusercontent.com/marcellorhcp/resume/main/MarceloAzevedo-PT-BR-Resume.pdf"
           target="_blank"
-          title="PDF Curriculum Vitae English"
+          title="PDF Curriculum Vitae"
         >
-          English Resume
+          PT-BR Resume
         </a>
       </section>
 
-      <!-- Seção sobre -->
-      <section class="about m-t-60 center">
-        <h2>Sobre mim</h2>
-        <p>Sou um analista de TI com experiência em diversas áreas da tecnologia. Busco sempre aprimorar meus conhecimentos e estou aberto a novos desafios.</p>
-      </section>
-
-      <!-- Seção de contatos e redes sociais -->
       <section class="social-icons m-t-120 center">
         <ul class="icons">
           <li>
-            <a href="https://github.com/marcellorhcp" target="_blank" title="GitHub" aria-label="GitHub">
+            <a
+              href="https://github.com/marcellorhcp"
+              target="_blank"
+              title="GitHub"
+              aria-label="GitHub"
+            >
               <img class="icon" src="icons/github.svg" alt="GitHub" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/marcelo-azevedo-" target="_blank" title="Linkedin" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/marcelo-azevedo-"
+              target="_blank"
+              title="Linkedin"
+              aria-label="LinkedIn"
+            >
               <img class="icon" src="icons/linkedin.svg" alt="LinkedIn" />
             </a>
           </li>
@@ -61,17 +64,6 @@
           </li>
         </ul>
       </section>
-
-      <!-- Botão para alternar entre Modo Claro/Modo Noturno -->
-      <button id="dark-mode-toggle" class="button">Modo Noturno</button>
     </main>
-
-    <script>
-      // Alternar entre modo claro e modo escuro
-      const toggleButton = document.getElementById('dark-mode-toggle');
-      toggleButton.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-      });
-    </script>
   </body>
 </html>
