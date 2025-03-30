@@ -1,15 +1,13 @@
-/* Variáveis de cores */
+/* Definir variáveis para cores e fontes */
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;
   --text-color: #333;
   --background-color: #f4f4f4;
-  --background-dark: #333;
-  --text-dark: #fff;
   --font-family: 'Roboto', sans-serif;
 }
 
-/* Resetando margens e paddings */
+/* Resetando margens e paddings padrões */
 *,
 *::before,
 *::after {
@@ -18,7 +16,7 @@
   box-sizing: border-box;
 }
 
-/* Estilos gerais */
+/* Aplicando fonte global */
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
@@ -30,13 +28,6 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  transition: background-color 0.3s, color 0.3s; /* Suavizar transição entre os modos */
-}
-
-/* Modo Escuro */
-body.dark-mode {
-  background-color: var(--background-dark);
-  color: var(--text-dark);
 }
 
 /* Centralizar conteúdo */
@@ -47,20 +38,20 @@ body.dark-mode {
   text-align: center;
 }
 
-/* Título principal */
+/* Estilo do título principal */
 .name {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-/* Descrição do cargo */
+/* Estilo para a descrição */
 .center span {
   font-size: 1.25rem;
   color: #777;
 }
 
-/* Botões */
+/* Estilo para botões */
 .button {
   display: inline-block;
   padding: 12px 20px;
@@ -77,7 +68,7 @@ body.dark-mode {
   background-color: var(--secondary-color);
 }
 
-/* Ícones sociais */
+/* Estilo dos ícones sociais */
 .icons {
   list-style: none;
   display: flex;
@@ -100,24 +91,7 @@ body.dark-mode {
   transform: scale(1.1);
 }
 
-/* Seção "Sobre" */
-.about {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.about h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
-}
-
-.about p {
-  font-size: 1.1rem;
-  color: #666;
-}
-
-/* Estilos para margens */
+/* Melhorando o espaçamento entre os itens */
 .m-t-60 {
   margin-top: 60px;
 }
@@ -126,13 +100,7 @@ body.dark-mode {
   margin-top: 120px;
 }
 
-/* Modo escuro para botão */
-.dark-mode .button {
-  background-color: #555;
-  color: white;
-}
-
-/* Responsividade para dispositivos móveis */
+/* Responsividade */
 @media (max-width: 768px) {
   .name {
     font-size: 2rem;
@@ -153,13 +121,5 @@ body.dark-mode {
 
   .button {
     padding: 10px 18px;
-  }
-
-  .about h2 {
-    font-size: 1.5rem;
-  }
-
-  .about p {
-    font-size: 1rem;
   }
 }
