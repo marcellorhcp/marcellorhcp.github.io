@@ -2,4 +2,4 @@
 
 On this website you will find my main contact links and updated curriculum available for download
 
-![image](https://user-images.githubusercontent.com/74083936/170726384-1a98511c-11e2-4225-808f-c4e83f9303d2.png)
+![image](https://github.com/user-attachments/assets/578407f6-1c35-4472-bfe2-1af857d519b0)
